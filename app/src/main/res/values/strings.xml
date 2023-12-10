@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">MetaScan</string>
+    <string name="tv1">
+            MetaScan is a cutting-edge mobile application designed to revolutionize security and convenience across the various environments. Leveraging state-of-the-art technology, MetaScan provides users with a powerful tool for detecting metal objects and electronic devices in real-time. Whether you are concerned about safety in public spaces, airports, or simply want to locate your misplaced electronic devices, MetaScan has you covered.
+    </string>
+    <string name="tv2">
+        <b>INSTRUCTIONS:</b>
+    </string>
+    <string name="tv3">
+        <b>1.Home Screen:</b>\nThe home screen presents three main options:\n<b>Metal Detection:</b>Tap on the \"Detect\" card to initiate metal detection using MetaScan technology.\n<b>Instructions:</b>Tap on the "Instruct" card to access instructions and information about MetaScan.\n<b>Add Number</b>:Tap on the "Add Number" card to manage emergency contact numbers.
+    </string>
+    <string name="tv4">
+        <b>2.Metal Detection:</b>\nThe metal detection feature allows you to identify metal objects and electronic devices in real-time.
+        Simply tap on the \"Detect\" option on the home screen to access this feature.
+        Explore your surroundings, and MetaScan will provide real-time feedback on detected items.
+        When the magnetic frequency reaches above 50µT it notify us through beep sound,notification and vibration.
+        It sends message to other which is added in database of the app.
+    </string>
+    <string name="tv5">
+        <b>3.Number Management:</b>\nTap on the \"Number Management\" card on the home screen to manage contact numbers.
+        View, add, update, or delete contact numbers on the \"Numbers\" screen.
+    </string>
+    <string name="tv6">
+        <b>4.Add Contact Number:</b>\nTo add a new contact number, tap on the \"Number Management\" card on the home screen.
+        Tap the \"Add Symbol\" at right bottom of the screen and next screen gets displayed.
+        Enter the name and phone number of the contact in the provided fields and tap the "Add" button.
+        You can see the number added in previous screen.
+    </string>
+    <string name="tv7">
+        <b>5.Update or Delete Emergency Contact:</b>\nTo update an contact details, tap on the contact you want to manage make changes and tap the \"Update\" button.
+        To delete an emergency contact, tap the \"Delete\" button after confirming your choice.To delete all the data click on the bin image present at top-right of view number screen.
+    </string>
+    <string name="tv8">
+        <b>Now You Are Good To Go.....</b>
+    </string>
+</resources>

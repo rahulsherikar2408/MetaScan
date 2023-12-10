@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1060217674018",
+    "project_id": "miniprj-c0c0f",
+    "storage_bucket": "miniprj-c0c0f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1060217674018:android:d2ed713cc1ae61f73e6d7b",
+        "android_client_info": {
+          "package_name": "com.example.miniprj"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCRmQgLbdTWtDXgb9LsLiDs6bY0G53Ipxo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

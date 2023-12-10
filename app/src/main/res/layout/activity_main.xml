@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/rl"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <include layout="@layout/toolbar"></include>
+    <androidx.cardview.widget.CardView
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:id="@+id/fre"
+        android:layout_centerHorizontal="true"
+        app:cardCornerRadius="15dp"
+        app:cardElevation="10dp"
+        android:layout_marginTop="110dp">
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textSize="18sp"
+            tools:ignore="NotSibling,UnknownId" />
+    </androidx.cardview.widget.CardView>
+
+
+    <com.github.mikephil.charting.charts.LineChart
+        android:id="@+id/chart"
+        android:layout_width="395dp"
+        android:layout_height="256dp"
+        android:layout_below="@id/fre"
+        android:layout_marginTop="72dp" />
+
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/materialButton"
+        style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+        android:layout_width="150dp"
+        android:layout_height="60dp"
+        android:layout_below="@id/chart"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="70dp"
+        android:textSize="20dp"
+        android:backgroundTint="#ABE4FA"
+        app:cornerRadius="25dp"
+        android:text="Start"
+        android:textColor="@color/black" />
+
+    <ImageView
+        android:id="@+id/toggleButton"
+        android:layout_width="57dp"
+        android:layout_height="34dp"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="60dp"
+        android:layout_marginEnd="5dp"
+        android:src="@drawable/img_1" />
+
+
+</RelativeLayout>

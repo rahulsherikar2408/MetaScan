@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#42A5F5">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="15dp">
+
+        <ImageView
+            android:id="@+id/left_icon4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:clickable="true"
+            android:src="@drawable/baseline_arrow_back_24"
+            tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck"></ImageView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_centerVertical="true"
+            android:id="@+id/tect"
+            android:layout_toEndOf="@+id/left_icon4"
+            android:text="View Numbers"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            tools:ignore="InvalidId">
+
+        </TextView>
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignEnd="@id/imageViewd"
+            android:layout_marginRight="60dp"
+            android:src="@drawable/baseline_refresh_24" />
+
+        <ImageView
+            android:id="@+id/imageViewd"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_alignEnd="@id/tect"
+            android:src="@drawable/delete_svgrepo_com__2_" />
+    </RelativeLayout>
+
+</RelativeLayout>
